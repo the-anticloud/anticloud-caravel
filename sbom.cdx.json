@@ -1,0 +1,103 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:e8b6d7a4-ba9b-5150-81ac-6bde2f2c5780",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T07:36:14Z",
+  "component": {
+   "type": "application",
+   "name": "CARAVEL",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/CARAVEL@83b357604d34",
+   "purl": "pkg:generic/anticloud/CARAVEL@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "FileCopyrightText",
+   "version": "unspecified",
+   "purl": "pkg:generic/FileCopyrightText",
+   "bom-ref": "conda/FileCopyrightText@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "2.0",
+   "version": "unspecified",
+   "purl": "pkg:generic/2.0",
+   "bom-ref": "conda/2.0@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "License-Identifier",
+   "version": "unspecified",
+   "purl": "pkg:generic/License-Identifier",
+   "bom-ref": "conda/License-Identifier@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "docs",
+   "version": "unspecified",
+   "purl": "pkg:generic/docs",
+   "bom-ref": "conda/docs@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "defaults",
+   "version": "unspecified",
+   "purl": "pkg:generic/defaults",
+   "bom-ref": "conda/defaults@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "python",
+   "version": "unspecified",
+   "purl": "pkg:generic/python",
+   "bom-ref": "conda/python@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pip",
+   "version": "unspecified",
+   "purl": "pkg:generic/pip",
+   "bom-ref": "conda/pip@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "-r",
+   "version": "unspecified",
+   "purl": "pkg:generic/-r",
+   "bom-ref": "conda/-r@unspecified"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
